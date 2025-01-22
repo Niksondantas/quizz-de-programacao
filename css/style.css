@@ -21,6 +21,7 @@ body{
     background-color: #2D425A;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
+    margin-bottom: 30px;
 }
 
 /*Score Container*/
@@ -81,6 +82,7 @@ body{
     border: 1px solid #CDDDE8;
     padding: 25px;
     border-radius: 25px;
+    margin: auto;
 }
 
 #questions{
