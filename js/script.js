@@ -7,72 +7,135 @@ const letters = ["a", "b", "c", "d"]
 let points = 0
 let actualQuestion = 0
 
-//Perguntas
+// Perguntas
 const questions = [
-    {
-      "question": "PHP foi desenvolvido para qual fim?",
-      "answers": [
-        {
-          "answer": "back-end",
-          "correct": true
-        },
-        {
-          "answer": "front-end",
-          "correct": false
-        },
-        {
-          "answer": "Sistema operacional",
-          "correct": false
-        },
-        {
-          "answer": "Banco de dados",
-          "correct": false
-        },
-      ]
-    },
-    {
-      "question": "Uma forma de declarar variável em JavaScript:",
-      "answers": [
-        {
-          "answer": "$var",
-          "correct": false
-        },
-        {
-          "answer": "var",
-          "correct": true
-        },
-        {
-          "answer": "@var",
-          "correct": false
-        },
-        {
-          "answer": "#let",
-          "correct": false
-        },
-      ]
-    },
-    {
-      "question": "Qual o seletor de id no CSS?",
-      "answers": [
-        {
-          "answer": "#",
-          "correct": true
-        },
-        {
-          "answer": ".",
-          "correct": false
-        },
-        {
-          "answer": "@",
-          "correct": false
-        },
-        {
-          "answer": "/",
-          "correct": false
-        },
-      ]
-    },
-  ]
+  {
+    "question": "PHP foi desenvolvido para qual fim?",
+    "answers": [
+      {
+        "answer": "back-end",
+        "correct": true
+      },
+      {
+        "answer": "front-end",
+        "correct": false
+      },
+      {
+        "answer": "Sistema operacional",
+        "correct": false
+      },
+      {
+        "answer": "Banco de dados",
+        "correct": false
+      },
+    ]
+  },
+  {
+    "question": "Uma forma de declarar variável em JavaScript:",
+    "answers": [
+      {
+        "answer": "$var",
+        "correct": false
+      },
+      {
+        "answer": "var",
+        "correct": true
+      },
+      {
+        "answer": "@var",
+        "correct": false
+      },
+      {
+        "answer": "#let",
+        "correct": false
+      },
+    ]
+  },
+  {
+    "question": "Qual o seletor de id no CSS?",
+    "answers": [
+      {
+        "answer": "#",
+        "correct": true
+      },
+      {
+        "answer": ".",
+        "correct": false
+      },
+      {
+        "answer": "@",
+        "correct": false
+      },
+      {
+        "answer": "/",
+        "correct": false
+      },
+    ]
+  },
+  {
+    "question": "Qual a linguagem de marcação usada na construção de páginas web?",
+    "answers": [
+      {
+        "answer": "HTML",
+        "correct": true
+      },
+      {
+        "answer": "CSS",
+        "correct": false
+      },
+      {
+        "answer": "JavaScript",
+        "correct": false
+      },
+      {
+        "answer": "PHP",
+        "correct": false
+      },
+    ]
+  },
+  {
+    "question": "O que significa a sigla SQL?",
+    "answers": [
+      {
+        "answer": "Structured Query Language",
+        "correct": true
+      },
+      {
+        "answer": "Simple Query Language",
+        "correct": false
+      },
+      {
+        "answer": "System Query Language",
+        "correct": false
+      },
+      {
+        "answer": "Secure Query Language",
+        "correct": false
+      },
+    ]
+  },
+  {
+    "question": "Qual é a função do Git?",
+    "answers": [
+      {
+        "answer": "Controle de versão de código",
+        "correct": true
+      },
+      {
+        "answer": "Hospedar sites",
+        "correct": false
+      },
+      {
+        "answer": "Editar imagens",
+        "correct": false
+      },
+      {
+        "answer": "Compilar código",
+        "correct": false
+      },
+    ]
+  }
+];
 
 //Substuição do quizz para a primeira pergunta
 function init(){  
